@@ -1,0 +1,3 @@
+rootProject.name = "UPI_Library"
+include ':app'
+include ':upi'
