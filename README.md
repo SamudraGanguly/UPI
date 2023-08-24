@@ -62,12 +62,17 @@ Add it in your root build.gradle at the end of repositories:
     The first 7 parameters are same as the getPaymentUri() method.
     The last parameter takes the app as the parameter. The following values can be passed:
 
-    UPI.GOOGLE_PAY - uses the Google Pay app
-    UPI.PHONE_PE - uses the Phone Pe app
-    UPI.PAYTM - uses the PayTM app
-    UPI.AMAZON_PAY - uses the Amazon Pay app
-    UPI.WHATSAPP - uses WhatsApp Payment
-    UPI.ALL_APPS - lets the user choose from the installed apps
+    **UPI.GOOGLE_PAY** - uses the Google Pay app
+    
+    **UPI.PHONE_PE** - uses the Phone Pe app
+    
+    **UPI.PAYTM** - uses the PayTM app
+    
+    **UPI.AMAZON_PAY** - uses the Amazon Pay app
+    
+    **UPI.WHATSAPP** - uses WhatsApp Payment
+    
+    **UPI.ALL_APPS** - lets the user choose from the installed apps
 
     Note: If the specified app is not installed, it will throw an Exception.
 
@@ -82,7 +87,7 @@ Add it in your root build.gradle at the end of repositories:
     }
     ```
 
- 3) **getQR(String UPI_ID, String name, String amount, String currency, String note, String transaction, String merchant_code, int pixels)**
+ 4) **getQR(String UPI_ID, String name, String amount, String currency, String note, String transaction, String merchant_code, int pixels)**
 
     This method returns the QR code as a Bitmap.
 
